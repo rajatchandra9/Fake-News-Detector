@@ -247,9 +247,14 @@ app.post("/register",(req,res)=>{
                         newUser.save()
                         .then(result=>{
                             console.log("Succesfully registered as ",result.email);
+                            res.json({
+                                email:result.email
+                            });
                         })
                         .catch(err=>console.log(err));
-                        res.json("Success");
+                        // res.json({
+                        //     email:newUser.email
+                        // });
                     }
                 });
             }
