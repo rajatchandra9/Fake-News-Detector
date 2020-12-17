@@ -24,7 +24,7 @@ class App extends Component {
     .then(response=>response.json())
     .then(console.log);
     if(window.location.pathname==="/"){
-      window.location.replace("https://fakenewsdetectorbyfnd.herokuapp.com/signin");
+      window.location.replace("https://fakenewsdetectorbyhra.herokuapp.com/signin");
     }
   }
   
@@ -51,7 +51,7 @@ class App extends Component {
           <Route exact path="/newsfeed" component={NewsApiConnector}/>
           <Route exact path="/reset/:id" component={ResetPassword}/>
           <Route exact path="/reset" component={ForgotPassword}/>
-          <Route render={()=><Redirect to="https://fakenewsdetectorbyfnd.herokuapp.com/signin"/>}/>
+          <Route render={()=><Redirect to="https://fakenewsdetectorbyhra.herokuapp.com/signin"/>}/>
         </Switch>
         </div>
         }

@@ -12,7 +12,7 @@ const path=require("path");
 require("dotenv/config");
 app.use(bp.json());
 
-const whitelist=["http://localhost:5000","http://localhost:3000","https://fakenewsdetectorbyfnd.herokuapp.com"];
+const whitelist=["http://localhost:5000","http://localhost:3000","https://fakenewsdetectorbyhra.herokuapp.com"];
 const corsopt={
     origin: function (origin,callback){
         console.log("Origin of request "+origin);
