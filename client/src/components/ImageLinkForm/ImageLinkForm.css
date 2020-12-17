@@ -1,0 +1,27 @@
+input[type=text] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+  }
+  button {
+    background-color: #4CAF50;
+    border: red 2px solid;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 8px 0px 0px 2px;
+    cursor: pointer;
+    width:20%
+  }
+  form button{
+    background-color: #9ACD32;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0 0 650px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+  }
