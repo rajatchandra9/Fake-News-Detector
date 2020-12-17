@@ -1,7 +1,6 @@
 {
   "name": "fake-news-detector",
   "version": "0.1.0",
-  "homepage":"http://rajatchandra9.github.io/Fake-News-Detector",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",

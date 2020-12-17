@@ -1,7 +1,6 @@
 {
   "name": "fakenewsdetectorapi",
   "version": "1.0.0",
-  "homepage":"http://rajatchandra9.github.io/Fake-News-Detector",
   "description": "",
   "main": "index.js",
   "scripts": {
