@@ -50,7 +50,7 @@ class Signin extends Component{
                     <div className="imgcontainer">
                         <img src={avtimg} alt="Avatar" length={151.91} width={151.91} className="avatar"/>
                     </div>
-                    {!this.state.isValid && <h6 style={{color:"red"}}>Invalid Username Aur Password*</h6>}
+                    {!this.state.isValid && <h6 style={{color:"red"}}>Invalid Username or Password*</h6>}
                     <form onSubmit={this.handleSubmit}>
                     <div className="container">
                         <label htmlFor="username"><b style={{color:"white"}}>Username</b></label>
