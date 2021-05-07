@@ -191,7 +191,7 @@ app.post("/reset",(req,res)=>{
             }
           });
           const mailOptions = {
-            from: 'incfakenews20@gmail.com',
+            from: 'fakenewdetectorinc@gmail.com',
             to: req.body.email,
             subject: 'Link To Reset Password',
             text:
